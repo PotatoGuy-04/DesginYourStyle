@@ -622,8 +622,7 @@ html {
 /* For screens smaller than 1090px */
 @media (max-width: 1090px) {
     .photoText-wrappermain img {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        max-width: 100%;
     } 
     .photoText-wrappermain .text {
         max-width: 80%;
