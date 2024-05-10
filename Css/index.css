@@ -517,7 +517,6 @@ html {
     .photoText-container4 img {
         width: auto;
         height: 100%;
-        object-fit: cover;
 
         } 
 
@@ -623,7 +622,8 @@ html {
 /* For screens smaller than 1090px */
 @media (max-width: 1090px) {
     .photoText-wrappermain img {
-        max-width: 80%;
+        margin-left: 1rem;
+        margin-right: 1rem;
     } 
     .photoText-wrappermain .text {
         max-width: 80%;
