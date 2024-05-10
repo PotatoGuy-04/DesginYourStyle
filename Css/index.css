@@ -517,6 +517,8 @@ html {
     .photoText-container4 img {
         width: auto;
         height: 100%;
+        object-fit: cover;
+
         } 
 
 
