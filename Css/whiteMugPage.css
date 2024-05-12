@@ -704,11 +704,12 @@ border-inline: 1rem solid #ffffff;
 
     @media (max-width: 1250px) {
         .product-wrap {
-            display: grid;
-            margin: 2.5rem 2.5rem;
-            place-content: center;
-            max-width: 80%;
-            gap: 0rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 2.5rem auto;
+          max-width: 80%;
+          gap: 0rem;
 
         }
         .product-con {
