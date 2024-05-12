@@ -705,9 +705,9 @@ border-inline: 1rem solid #ffffff;
     @media (max-width: 1250px) {
         .product-wrap {
             display: grid;
-            margin: 2.5rem auto;
+            margin: 2.5rem 2.5rem;
             place-content: center;
-            max-width: 50%;
+            max-width: 80%;
             gap: 0rem;
 
         }
@@ -746,12 +746,13 @@ border-inline: 1rem solid #ffffff;
             border-radius: 9999px;
          } */
          .h7-con {
+          
             margin-top: 0.75rem;
          }
     }
     @media (max-width: 650px) {
         .product-wrap {
-            max-width: 80%;
+            max-width: 100%;
             margin: auto auto;
         }
 /*         .product-images-con {
