@@ -714,7 +714,6 @@ border-inline: 1rem solid #ffffff;
         }
         .product-con {
             max-width: 80%;
-            margin: 0 2.5rem;
             flex-direction: column;
             align-items: center;
             justify-content: center;
@@ -723,7 +722,7 @@ border-inline: 1rem solid #ffffff;
             display: none;
         }
         .product-images-con {
-            max-width: unset;
+            max-width: 80%;
         }
         .product-text-con {
             margin-top: 0;
