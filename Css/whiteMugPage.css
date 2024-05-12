@@ -751,12 +751,13 @@ border-inline: 1rem solid #ffffff;
     }
     @media (max-width: 650px) {
         .product-wrap {
-            max-width: 100%;
+            max-width: 80%;
+            margin: auto auto;
         }
-        .product-images-con {
+/*         .product-images-con {
             margin: 30%;
         }
-
+ */
     }
 
 
