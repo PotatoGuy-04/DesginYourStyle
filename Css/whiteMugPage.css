@@ -743,9 +743,9 @@ border-inline: 1rem solid #ffffff;
             box-sizing: border-box;
             border-radius: 9999px;
          } */
-         /* .h7-con {
-            margin-top: 0.5rem;
-         } */
+         .h7-con {
+            margin-top: 0.75rem;
+         }
     }
     @media (max-width: 650px) {
         .product-wrap {
