@@ -760,7 +760,7 @@ border-inline: 1rem solid #ffffff;
     }
     @media (max-width: 650px) {
         .product-wrap {
-            max-width: 50%;
+            max-width: 90%;
 
         }
         .product-main-img-con {
