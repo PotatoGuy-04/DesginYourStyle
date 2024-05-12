@@ -753,7 +753,7 @@ border-inline: 1rem solid #ffffff;
     }
     @media (max-width: 650px) {
         .product-wrap {
-            max-width: 80%;
+            max-width: 50%;
         }
         /* .product-images-con {
             max-width: 50%;
