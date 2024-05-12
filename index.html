@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="photos/Index/websiteIcon.jpg">
+    <title>DYS-Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/index.css">
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    <!-- Nav-Bar -->
+    <div class="navBootrstrap-background">
+        <nav>
+                <ul class="listOfNav1">
+                    <li><a class="currentPage" href="index.html">Home</a></li>
+                    <li><a class="otherPages" href="html/shop.html">Shop</a></li>
+                    <li><a class="otherPages" href="html/aboutUs.html">About us</a></li>
+                    <li><a class="otherPages" href="#FAQ">FAQ</a></li>
+                </ul>
+                <div class="nav-sec-right">
+                    <a class="logAndReg" href="php/login.php">
+                        Login
+                    </a>
+                    <a class="logAndReg" href="php/register.php">
+                        Register
+                    </a>
+                    <a class="nav-1-shopcart-con" href="html/index.html" >
+                        <img src="photos/Index/shopcartWhite.png"  alt="DYS Logo" >
+                    </a>
+                    <a class="navbar-logo-container" href="index.html" >
+                        <img src="photos/Index/navbarlogo.png"  alt="DYS Logo" >
+                    </a>
+                </div>
+            
+        </nav>
+        <div class="nav-2">
+            <a class="navbar-logo-container2" href="index.html" >
+                <img src="photos/Index/navbarlogo.png"  alt="DYS Logo" >
+            </a>
+        </div>
+        <div class="bootstrap">
+            <ul>
+                <li><a href="#slider-text-container">Explore</a></li>
+                <li><a href="#">inormation</a></li>
+                <li><a href="#footer">our media</a></li>
+                <li><a href="#footer">more...</a></li>
+            </ul>
+        </div>
+    </div>
+    <label class="hamburger-menu">
+        <input type="checkbox">
+    </label>
+    <aside class="sidebar">
+        <div class="sidebar-2-sec-above">
+            
+            <a class="sidebar-shopcart-con" href="html/index.html" >
+                <img src="photos/Index/shopcartPink.png"  alt="DYS Logo" >
+            </a>
+            <a class="logAndReg-2" href="php/login.php">
+                Login
+            </a>
+            <a class="logAndReg-2" href="php/register.php">
+                Register
+            </a>
+
+        </div>
+        <ul class="listOfNav2">
+
+            <li class="currentPage2-wrapper">
+                <a class="currentPage2" href="index.html">Home</a>
+                <div class="bootstrap2">
+                    <ul>
+                        <li><a href="#slider-text-container">Explore</a></li>
+                        <li><a href="#">Inormation</a></li>
+                        <li><a href="#footer">Our media</a></li>
+                        <li><a href="#footer">More...</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="otherPage2"><a href="html/shop.html">Shop</a></li>
+            <li class="otherPage2"><a href="html/aboutUs.html">About us</a></li>
+            <li class="otherPage2"><a href="#FAQ">FAQ</a></li>
+        </ul>
+    </aside>
+
+    <!-- Slider -->
+        <section class="slider-AllContainer">
+            <div class="slider-container">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <img class="slide" src="photos/Index/SliderPhoto1.jpg" alt="Image 1">
+                        <img class="slide" src="photos/Index/SliderPhoto2.jpg" alt="Image 2">
+                        <img class="slide" src="photos/Index/SliderPhoto3.jpg" alt="Image 3">
+                    </div>
+                    <div class="slider-buttons-container">
+                        <button class="button-left" onclick="goPrev()">&lt</button>
+                        <button class="button-right" onclick="goNext()">&gt</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="slider-text-container" id="slider-text-container">
+            <div class="slider-text">
+                <h2>Design with your own style!</h2>
+                <p>Chose a product that fit ur needs and costimze it  to your liking.</p>
+            </div>
+        </div>
+    <div class="photoText-wrappermain">
+
+        <div class="photoText-wrapper1" >
+
+            <div class="photoText-container">
+
+                <div class="photoText-img-con"><img src="photos/Index/photoText1.png" alt="white mug"></div>
+
+                    <p class="text">Chose a prdouct to your liking</p>
+            </div>
+
+        </div>
+
+        <div class="photoText-wrapper2" >
+
+            <div class="photoText-container2">
+
+                <p class="text">Selecet a picture you want to be on your mug</p>
+
+                <div class="photoText-img-con"><img src="photos/Index/photoText2.png" alt="white mug"></div>
+
+            </div>
+
+        </div>
+
+        <div class="photoText-wrapper3" >
+
+            <div class="photoText-container3">
+
+            <div class="photoText-img-con"><img src="photos/Index/photoText3.png" alt="white mug"></div>
+
+                <p class="text">Place the picture on the mug</p>
+
+            </div>
+
+        </div>
+
+        <div class="photoText-wrapper4" >
+
+            <div class="photoText-container4">
+
+                <p class="text">Add something to make ur photo better looking</p>
+
+                <div class="photoText-img-con"><img src="photos/Index/photoText4.png" alt="white mug"></div>
+
+            </div>
+
+        </div>
+        
+    </div>
+        
+
+        <footer id="footer">
+            <div class="footer-section1">
+                <a class="footer_logoContainer" href="index.html" >
+                    <img class="footer_logo" src="photos/Index/navbarlogo.png"  alt="DYS Logo" >
+                </a>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/groups/484206159190884" target="_blank" rel="noopener noreferrer">
+                      <img src="photos/Index/whiteFacebookLogo.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.tiktok.com/@somayadarra" target="_blank" rel="noopener noreferrer">
+                      <img src="photos/Index/whiteTiktokLogo.png" alt="Tiktok">
+                    </a>
+                    <a href="https://www.instagram.com/desgin_your_style/" target="_blank" rel="noopener noreferrer">
+                      <img src="photos/Index/whiteInstagramLogo.png" alt="Instagram">
+                    </a>
+                  </div>
+            </div>
+            <div class="footer-section2">
+                <div class="footer-section2-container">
+                    <div class="footer-section2-contactInfo-container">
+                        <h4> Contact Info </h4>
+                        <p>+32 471 74 84 10</p>
+                        <p>desginyourstyle@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Design Your Style. All rights reserved.
+            </div>
+        </footer>
+</body>
+</html>
