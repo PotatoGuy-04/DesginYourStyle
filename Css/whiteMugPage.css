@@ -703,15 +703,18 @@ border-inline: 1rem solid #ffffff;
     }
 
     @media (max-width: 1250px) {
-        .product-wrap {
+         .product-wrap {
+            display: grid;
+            place-content: center;
             max-width: 50%;
             gap: 0rem;
         }
         .product-con {
-           flex-direction: column;
-           gap: 0.5rem;
-           align-items: center;
-           justify-content: center;
+            max-width: 100%;
+            flex-direction: column;
+            gap: 1.2rem;
+            align-items: center;
+            justify-content: center;
         }
         .page-position-con {
             display: none;
