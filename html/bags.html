@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="../photos/Index/websiteIcon.jpg">
+    <title>DYS Tote Bags Section</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/bags.css">
+    <script src="../js/bags.js" defer></script>
+</head>
+<body>
+    <div class="body-sec-1">
+    <!-- Begin section-1 -->
+
+
+        <!-- Nav-Bar -->
+        <div class="navBootrstrap-background">
+            <nav>
+                    <ul class="listOfNav1">
+                        <li><a class="otherPages" href="../index.html">Home</a></li>
+                        <li><a class="currentPage" href="../html/shop.html">Shop</a></li>
+                        <li><a class="otherPages" href="../html/aboutUs.html">About us</a></li>
+                        <li><a class="otherPages" href="../html/FAQ.html">FAQ</a></li>
+                    </ul>
+                    <div class="nav-sec-right">
+                        <a class="logAndReg" href="../php/login.php">
+                            Login
+                        </a>
+                        <a class="logAndReg" href="../php/register.php">
+                            Register
+                        </a>
+                        <a class="nav-1-shopcart-con" href="../html/index.html" >
+                            <img src="../photos/Index/shopcartWhite.png"  alt="DYS Logo" >
+                        </a>
+                        <a class="navbar-logo-container" href="../index.html" >
+                            <img src="../photos/Index/navbarlogo.png"  alt="DYS Logo" >
+                        </a>
+                    </div>
+            </nav>
+                        
+            <div class="nav-2">
+                <a class="navbar-logo-container2" href="../index.html" >
+                    <img src="../photos/Index/navbarlogo.png"  alt="DYS Logo" >
+                </a>
+            </div>
+            <div class="bootstrap">
+                <ul>
+                    <li><a href="#product-sub-images-con">Product</a></li>
+                    <li><a href="#product-price">price</a></li>
+                    <li><a href="#product-title">Title</a></li>
+                    <li><a href="#footer">our media</a></li>
+                    <li><a href="#footer">more...</a></li>
+                </ul>
+            </div>
+        </div>
+        <label class="hamburger-menu">
+            <input type="checkbox">
+        </label>
+        <aside class="sidebar">
+            <ul class="listOfNav2">
+        
+                <div class="sidebar-2-sec-above">
+                
+                    <a class="sidebar-shopcart-con" href="../html/index.html" >
+                        <img src="../photos/Index/shopcartPink.png"  alt="DYS Logo" >
+                    </a>
+                    <a class="logAndReg-2" href="../php/login.php">
+                        Login
+                    </a>
+                    <a class="logAndReg-2" href="../php/register.php">
+                        Register
+                    </a>
+            
+                </div>
+                <li class="otherPage2"><a href="../index.html">Home</a></li>
+                <li class="currentPage2-wrapper">
+                    <a class="currentPage2" href="index.html">Shop</a>
+                    <div class="bootstrap2">
+                        <ul>
+                            <li><a href="#product-sub-images-con">Product</a></li>
+                            <li><a href="#product-price">price</a></li>
+                            <li><a href="#product-title">Title</a></li>
+                            <li><a href="#footer">Our media</a></li>
+                            <li><a href="#footer">More...</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="otherPage2"><a href="../html/aboutUs.html">About us</a></li>
+                <li class="otherPage2"><a href="#FAQ">FAQ</a></li>
+            </ul>
+        </aside>    
+
+        <div class="product-wrap">
+            <div class="page-position-con">
+                <a href="../html/shop.html" class="page-position-1">Shop</a>
+                <a  class="page-position-2">&nbsp;/ Bags-Section</a>
+            </div>
+            <div class="product-con">
+                <div class="product-images-con">
+                    <a class="product-main-img-con"><img class="Product-main-img" src="../photos/Index/ShopToteBagsItems.jpg" alt="photo of mug with a photo"></a>
+                    <div class="product-sub-images-con" id="product-sub-images-con">
+                        <a class="product-sub-img-con"><img class="img-9" src="../photos/Index/BagItem1.jpg" alt="photo of mug with a photo" onclick="changeImg(9)"></a>
+                        <a class="product-sub-img-con"><img class="img-10" src="../photos/Index/BagItem2.jpg" alt="photo of mug with a photo" onclick="changeImg(10)"></a>
+                        <a class="product-sub-img-con"><img class="img-11" src="../photos/Index/BagItem3.jpg" alt="photo of mug with a photo" onclick="changeImg(11)"></a>
+                        <a class="product-sub-img-con"> <img class="img-12" src="../photos/Index/BagItem4.jpg" alt="photo of mug with a photo" onclick="changeImg(12)"></a>
+                    </div>
+                </div>
+                <div class="product-text-con">
+                    <div class="h7-con"><h7>Tote Bag<br>Product-ID: /</h7></div>
+                    <div class="product-text-wrap">
+                        <div class="product-title" id="product-title">Tote Bag With Special Design</div>
+                        <div class="product-priceAndButton-con">
+                            <div class="product-price" id="product-price">€13,99</div>
+                            <select class="product-select-con" onchange="changeToSlectedItem()">
+                                <option value="nothing">"select a Tote bag"</option> 
+                                <option value="ThankingTeatcherTB">Thanking teatcher tote bag</option>
+                                <option value="HBDTeatcherTB">HBD-Teatcher tote bag </option>
+                                <option value="SunWithQuote">Sun with a quote</option>
+                                <option value="c-GWP">Calander Gift with photo</option>
+                            </select>
+                            <input onfocus="deleteInside()" type="text" innerhtml="potato" class="product-textbox-name" value='"Type the name"' required>
+                            <form class="product-img-upload-con" enctype="multipart/form-data">
+                                <input class="product-img-upload" type="file" id="image-input" accept="image/*" required>
+                            </form>
+                            <a href="#" class="product-button">Put in cart</a>
+                        </div>
+                        <div class="product-details-con">
+                            <div class="product-details-title">Product Details</div>
+                            <div class="product-details-text">
+                                Introducing our customizable tote bag,
+                                a unique and personal way to carry your essentials.
+                                 Our tote bag allows you to upload your own design
+                                  and add a touch of creativity with emojis, symbols,
+                                   or text. Made from durable and eco-friendly materials,
+                                    our tote bag is perfect for everyday use. With our 
+                                    easy-to-use online design tool, you can create a
+                                     one-of-a-kind bag that reflects your personality
+                                      and style.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- End section-1 -->
+    </div>
+
+    <div class="body-sec-2">
+    <!-- Begin section-1 -->
+        <footer id="footer">
+            <div class="footer-section1">
+                <a class="footer_logocon" href="../index.html" >
+                    <img class="footer_logo" src="../photos/Index/navbarlogo.png"  alt="DYS Logo" >
+                </a>
+                <ul>
+                    <li><a href="../html/aboutUs.html">About us</a></li>
+                    <li><a href="../html/FAQ.html">FAQ</a></li>
+                    <li><a href="../html/contactUs.html">Contact us</a></li>
+                </ul>
+                <div class="social-media">
+                    <a href="../https://www.facebook.com/groups/484206159190884" target="_blank" rel="noopener noreferrer">
+                        <img src="../photos/Index/whiteFacebookLogo.png" alt="Facebook">
+                    </a>
+                    <a href="../https://www.tiktok.com/@somayadarra" target="_blank" rel="noopener noreferrer">
+                        <img src="../photos/Index/whiteTiktokLogo.png" alt="Tiktok">
+                    </a>
+                    <a href="../https://www.instagram.com/desgin_your_style/" target="_blank" rel="noopener noreferrer">
+                        <img src="../photos/Index/whiteInstagramLogo.png" alt="Instagram">
+                    </a>
+                    </div>
+            </div>
+            <div class="footer-section2">
+                <div class="footer-section2-con">
+                    <div class="footer-section2-contactInfo-con">
+                        <h4> Contact Info </h4>
+                        <p>+32 471 74 84 10</p>
+                        <p>sd.designyourstyle@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Design Your Style. All rights reserved.
+            </div>
+        </footer>
+    <!-- End section-2 -->
+    </div>
+</body>
+</html>
